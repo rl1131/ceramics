@@ -6,7 +6,7 @@ The following are required to reproduce this work.  The Python matrix generation
  - Python 3.x
  - OpenSCAD - Language Based 3D Modeling 
 ## Other Software Used to Print
- Once you have a 3D .stl model, you will need other software to "slice" and print.  I used the following for this purpose:
+ Once you have a 3D .stl model, you will need other hardware and software to "slice" and print.  I used the following for this purpose:
  - Slicing:  PrusaSlicer
  - Raspberry Pi to run OctoPrint
  - Printing:  OctoPrint
@@ -25,10 +25,10 @@ Follow these basic steps:
 	 - Change the following two lines to equal the above col & row counts:
 		 - col_count = 29
 		 - row_count = 8
-	 - At the command line run "python matrix.py"
+ - At the command line run "python matrix.py"
 		 - A window should appear with a crude representation of the matrix.
 		 - Press "SPACE" to cycle to another rendering... continue to cycle until you find a rendering you like.  These are randomly generated.
 		 - Press "ESC" to exit and print the last rendering as a matrix suitable for OpenSCAD.
-	 - Edit the file "matrix.scad" and replace the variable "matrix" there with your newly created matrix.
-	 - Run OpenSCAD again and load elecmug.scad.  You should now see your newly created "slab" template.
-	 - From here, you will need to export the .stl file and continue with your normal 3D Printing workflow... or learn one on the interwebs.
+- Edit the file "matrix.scad" and replace the variable "matrix" there with your newly created matrix.
+ - Run OpenSCAD again and load elecmug.scad.  You should now see your newly created "slab" template.
+ - From here, you will need to export the .stl file and continue with your normal 3D Printing workflow... or learn one on the interwebs.
