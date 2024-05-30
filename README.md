@@ -32,3 +32,7 @@ Follow these basic steps:
 - Edit the file "matrix.scad" and replace the variable "matrix" there with your newly created matrix.
  - Run OpenSCAD again and load elecmug.scad.  You should now see your newly created "slab" template.
  - From here, you will need to export the .stl file and continue with your normal 3D Printing workflow... or learn one on the interwebs.
+## Pictures Or It Didn't Happen
+![OpenSCAD Model Image](https://github.com/rl1131/ceramics/blob/main/images/OpenSCAD.png?raw=true)
+![OpenSCAD Model Image](https://github.com/rl1131/ceramics/blob/main/images/espresso_mug_template.png?raw=true)
+![OpenSCAD Model Image](https://github.com/rl1131/ceramics/blob/main/images/CeramicTests.png?raw=true)
